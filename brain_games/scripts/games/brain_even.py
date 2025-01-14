@@ -1,8 +1,7 @@
 import random
 
-import prompt
-
 from brain_games.cli import welcome_user
+from brain_games.scripts.main import game
 
 MAX_CORRECT_ANSWERS = 3
 MAX_NUMBER_RANGE = 100
@@ -10,29 +9,13 @@ MAX_NUMBER_RANGE = 100
 
 def main():
     user_name = welcome_user()
-    game(user_name)
-
-
-def game(user_name):
-    correct_answers = MAX_CORRECT_ANSWERS
     print('Answer "yes" if the number is even, otherwise answer "no".')
-
-    while correct_answers:
+    correct_answers = 0
+    while correct_answers < MAX_CORRECT_ANSWERS:
         random_number = get_random_number()
-        print(f"Question: {random_number}")
-        answer = prompt.string("Your answer: ")
         good_answer = get_good_answer(random_number)
-
-        if answer == good_answer:
-            correct_answers -= 1
-            print("Correct!")
-        else:
-            print(
-                f"'{answer}' is wrong answer ;(. Correct answer was '{good_answer}'.\n"
-                f"Let's try again, {user_name}!"
-            )
-            correct_answers = MAX_CORRECT_ANSWERS
-
+        question = f"Question: {random_number}"
+        correct_answers = game(user_name, question, good_answer, correct_answers)
     print(f"Congratulations, {user_name}!")
 
 
