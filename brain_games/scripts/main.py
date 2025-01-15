@@ -2,7 +2,6 @@ import prompt
 
 
 def game(user_name, question, good_answer, correct_answers):
-
     print(question)
 
     answer = prompt.string("Your answer: ")

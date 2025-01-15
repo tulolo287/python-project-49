@@ -15,7 +15,9 @@ def main():
         random_number = get_random_number()
         good_answer = get_good_answer(random_number)
         question = f"Question: {random_number}"
-        correct_answers = game(user_name, question, good_answer, correct_answers)
+        correct_answers = game(
+            user_name, question, good_answer, correct_answers
+        )
     print(f"Congratulations, {user_name}!")
 
 
