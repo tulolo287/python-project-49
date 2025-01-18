@@ -7,3 +7,5 @@
 <a href="https://asciinema.org/a/6lfESlvnHR2BnSnN5QC1Utauf" target="_blank"><img src="https://asciinema.org/a/6lfESlvnHR2BnSnN5QC1Utauf.svg" /></a>
 # Brain gcd game:
 <a href="https://asciinema.org/a/yiDNdqihFN19kgd1c6FWhH7V2" target="_blank"><img src="https://asciinema.org/a/yiDNdqihFN19kgd1c6FWhH7V2.svg" /></a>
+# Brain progression game:
+<a href="https://asciinema.org/a/KLsBoiIimSv0pvlQiCyMmZmFd" target="_blank"><img src="https://asciinema.org/a/KLsBoiIimSv0pvlQiCyMmZmFd.svg" /></a>

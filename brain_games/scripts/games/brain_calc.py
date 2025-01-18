@@ -5,6 +5,7 @@ from brain_games.scripts.main import game
 
 MAX_CORRECT_ANSWERS = 3
 MAX_NUMBER_RANGE = 10
+SIGNS_COUNT = 3
 
 
 def main():
@@ -17,7 +18,7 @@ def main():
     while correct_answers < MAX_CORRECT_ANSWERS:
         first_number = random.randint(0, MAX_NUMBER_RANGE)
         second_number = random.randint(0, MAX_NUMBER_RANGE)
-        sign = signs[random.randint(0, 2)]
+        sign = signs[random.randint(0, SIGNS_COUNT - 1)]
 
         good_answer = get_correct_answer(first_number, second_number, sign)
         question = f"Question: {first_number} {sign} {second_number}"
