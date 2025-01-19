@@ -8,4 +8,6 @@
 # Brain gcd game:
 <a href="https://asciinema.org/a/yiDNdqihFN19kgd1c6FWhH7V2" target="_blank"><img src="https://asciinema.org/a/yiDNdqihFN19kgd1c6FWhH7V2.svg" /></a>
 # Brain progression game:
-<a href="https://asciinema.org/a/KLsBoiIimSv0pvlQiCyMmZmFd" target="_blank"><img src="https://asciinema.org/a/KLsBoiIimSv0pvlQiCyMmZmFd.svg" /></a>
+<a href="https://asciinema.org/a/mJhvK9yJGTKuCwevBeOOruF32" target="_blank"><img src="https://asciinema.org/a/mJhvK9yJGTKuCwevBeOOruF32.svg" /></a>
+# Brain prime game:
+<a href="https://asciinema.org/a/dfIv6e3rMdskDQyKPT9acvqKM" target="_blank"><img src="https://asciinema.org/a/dfIv6e3rMdskDQyKPT9acvqKM.svg" /></a>
