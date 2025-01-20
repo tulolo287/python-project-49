@@ -18,7 +18,7 @@ def main():
         progression_gap = random.randint(1, MAX_NUMBER_RANGE)
         progression = []
         good_answer = None
-        
+
         for i in range(MAX_NUMBER_RANGE):
             if unknown_number_i == i:
                 good_answer = str(progression_number)
@@ -35,3 +35,6 @@ def main():
         )
     print(f"Congratulations, {user_name}!")
 
+
+if __name__ == "__main__":
+    main()

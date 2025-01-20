@@ -38,3 +38,7 @@ def get_correct_answer(first_number, second_number, sign):
             return str(int(first_number * second_number))
         case "/":
             return str(int(first_number / second_number))
+
+
+if __name__ == "__main__":
+    main()

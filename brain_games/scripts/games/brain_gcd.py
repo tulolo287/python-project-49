@@ -28,3 +28,7 @@ def get_correct_answer(first_number, second_number):
     if first_number == 0 or second_number == 0:
         return str(max(first_number, second_number))
     return get_correct_answer(second_number, first_number % second_number)
+
+
+if __name__ == "__main__":
+    main()

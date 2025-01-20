@@ -39,3 +39,7 @@ def is_prime(number):
 
 def get_random_number():
     return random.randint(0, MAX_NUMBER_RANGE)
+
+
+if __name__ == "__main__":
+    main()
